@@ -1,11 +1,14 @@
 #!/usr/bin/perl
 
+<<<<<<< HEAD
 # uses perl v5.34.1 - built-in for MacOS
 # This script processes a CSV file containing call data with fields: type, region, month, calls.
 # It generates two summary CSV files:
 # 1. billable_summary.csv: Summarizes billable calls (types 'paid' and 'prepaid') by region and month.
 # 2. total_region_summary.csv: Summarizes total calls by region and month.  
 
+=======
+>>>>>>> main
 use strict;
 use Data::Dumper;
 
